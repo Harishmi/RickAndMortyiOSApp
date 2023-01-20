@@ -55,6 +55,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		115F2631297B0EEF0034926A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		115F2632297B0EFE0034926A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		115F2633297B0F0B0034926A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		11E7EF122975D1CB006C28E7 = {
 			isa = PBXGroup;
 			children = (
@@ -74,12 +95,12 @@
 		11E7EF1D2975D1CB006C28E7 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
+				115F2633297B0F0B0034926A /* ViewModels */,
+				115F2632297B0EFE0034926A /* Views */,
+				115F2631297B0EEF0034926A /* Managers */,
 				11E7EF382975D434006C28E7 /* Resources */,
 				11E7EF372975D42C006C28E7 /* ApiClient */,
-				11E7EF362975D41D006C28E7 /* Managers */,
-				11E7EF352975D402006C28E7 /* ViewModels */,
 				11E7EF342975D304006C28E7 /* Models */,
-				11E7EF332975D2FA006C28E7 /* Views */,
 				11E7EF322975D2E6006C28E7 /* Controllers */,
 				11E7EF2C2975D1CC006C28E7 /* Info.plist */,
 			);
@@ -94,13 +115,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		11E7EF332975D2FA006C28E7 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		11E7EF342975D304006C28E7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,20 +123,6 @@
 				11E7EF3D2975D4BE006C28E7 /* RMEpisode.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		11E7EF352975D402006C28E7 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		11E7EF362975D41D006C28E7 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Managers;
 			sourceTree = "<group>";
 		};
 		11E7EF372975D42C006C28E7 /* ApiClient */ = {
