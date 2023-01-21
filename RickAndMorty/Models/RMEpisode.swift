@@ -6,8 +6,8 @@
 //
 
 import Foundation
-struct Episode: Codable {
-    let id: 28
+struct RMEpisode: Codable {
+    let id: Int
     let name: String
     let air_date: String
     let episode: String
